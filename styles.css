@@ -34,10 +34,6 @@ h1 {
     width: 45%;
     text-align: left;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
 }
 
 .course h2 {
@@ -58,7 +54,7 @@ a.btn-primary {
     background-color: #f39c12;
     color: white;
     padding: 10px 20px;
-    margin-top: auto; /* Pushes the button to the bottom of the course box */
+    margin: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -86,10 +82,6 @@ a.btn-primary:hover {
         width: 100%;
         margin: 10px 0;
     }
-
-    a.btn-primary {
-        margin-top: 20px; /* Adjust if needed */
-    }
 }
 
 @media (max-width: 768px) {
@@ -112,7 +104,7 @@ a.btn-primary:hover {
     }
 
     a.btn-primary {
-        margin-top: 15px; /* Adjust if needed */
+        padding: 8px 16px;
     }
 }
 
@@ -123,6 +115,5 @@ a.btn-primary:hover {
 
     a.btn-primary {
         padding: 6px 12px;
-        margin-top: 10px; /* Adjust if needed */
     }
 }
