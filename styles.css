@@ -34,6 +34,7 @@ h1 {
     width: 45%;
     text-align: left;
     box-sizing: border-box;
+    position: relative; /* Ensure button can be positioned relative to this container */
 }
 
 .course h2 {
@@ -50,14 +51,15 @@ h1 {
 }
 
 a.btn-primary {
-    display: inline-block;
+    display: block; /* Make the button block-level for proper spacing */
     background-color: #f39c12;
     color: white;
     padding: 10px 20px;
-    margin: 10px;
+    margin-top: 20px; /* Add spacing above the button */
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    text-align: center; /* Center text within the button */
 }
 
 a.btn-primary:hover {
@@ -105,6 +107,7 @@ a.btn-primary:hover {
 
     a.btn-primary {
         padding: 8px 16px;
+        margin-top: 15px; /* Adjust margin for better spacing */
     }
 }
 
@@ -115,5 +118,6 @@ a.btn-primary:hover {
 
     a.btn-primary {
         padding: 6px 12px;
+        margin-top: 10px; /* Adjust margin for smaller screens */
     }
 }
